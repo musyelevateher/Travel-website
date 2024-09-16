@@ -34,29 +34,28 @@ font-weight: 400;
   position: relative;
   width: 80%;
   max-width: 800px;
-  transform: translateX(40%);
-  height: 450px;
+  margin: auto;
 }
 .blurry {
   position: absolute;
   width: 100%;
  top: 0;
  left: 0;
-  transform: translateY(-45%);
+  transform: translateY(-50%);
 }
 .ellipse {
   position: absolute;
   width: 85%;
   top: 0;
   left: 0;
-  transform: translateY(9%);
+  transform: translate(9%);
 }
 .image-A {
   position: absolute;
   width: 76%;
   top: 0;
   left: 0;
-  transform: translateX(8%);
+  transform: translate(18%);
 }
 .span {
   color: #25A59E;
@@ -69,6 +68,7 @@ font-weight: 400;
   line-height: 84px;
   text-align: center;
   transform: translateX(5%);
+  margin-top: 400px;
   }
   .destination h4 {
     font-family: "urbanist";
