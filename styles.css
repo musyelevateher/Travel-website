@@ -289,9 +289,8 @@ text-align: left;
 }
 .social-link {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 0 10px;
+  transform: translateX(50%);
+  background-color: green;
 }
 .cam {
   width: 20%;
