@@ -293,9 +293,13 @@ text-align: left;
   align-items: center;
   margin-top: 0 10px;
 }
+.cam {
+  width: 20%;
+}
 .notification {
 margin-top: 30px;
 }
+
 ul {
   list-style: none;
   display: flex;
