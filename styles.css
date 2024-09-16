@@ -56,6 +56,7 @@ font-weight: 400;
   top: 0;
   left: 0;
   transform: translate(18%);
+  margin-top: -35px;
 }
 .span {
   color: #25A59E;
