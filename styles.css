@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  overflow: hidden;
-}
+
 .travel  {
 display: flex;
 justify-content: space-between;
@@ -291,8 +289,9 @@ text-align: left;
 }
 .social-link {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0 10px;
 }
 .notification {
 margin-top: 30px;
