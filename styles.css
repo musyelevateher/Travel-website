@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.travel  {
+display: flex;
+justify-content: center;
+gap: 1000px;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.travel p {
+  color: #25A59E;
+  font-family: "Gilda display";
+  font-size: 24px;
+  font-weight: 400;
+}
+.frame {
+  display: flex;
+  margin-right: 15px;
+}
+.textarea1 {
+font-weight: 400;
+  text-align: center;
+  font-family: "Gilda display";
+  font-size: 50px;
+  font-style: normal;
+  line-height:84px;
+
+}
+.image-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  transform: translateX(40%);
+  height: 450px;
+}
+.blurry {
+  position: absolute;
+  width: 100%;
+ top: 0;
+ left: 0;
+  transform: translateY(-45%);
+}
+.ellipse {
+  position: absolute;
+  width: 85%;
+  top: 0;
+  left: 0;
+  transform: translateY(9%);
+}
+.image-A {
+  position: absolute;
+  width: 76%;
+  top: 0;
+  left: 0;
+  transform: translateX(8%);
+}
+.span {
+  color: #25A59E;
+
+}
+.destination p {
+  font-family: "Gilda display";
+  font-weight:  400;
+  font-size: 50px;
+  line-height: 84px;
+  text-align: center;
+  transform: translateX(5%);
+  }
+  .destination h4 {
+    font-family: "urbanist";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #595959;
+    text-align: center;
+  transform: translateX(5%);
+  }
+  .container {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 40px;
+     margin-top: 50px;
+
+  }
+.location {
+  display: flex;
+
+
+}
+.rotate {
+  transform: rotate(-180deg);
+}
+.choose p {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height:  84px;
+  color: #262626;
+  text-align: center;
+}
+.choose h1 {
+  font-family: "urbanist";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color:#737373;
+}
+.listcard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width:  90%;
+  height: 300px;
+  padding: 30px;
+} 
+.card {
+  border: solid 4px white;
+  background-color: #fff;
+}
+.card-1 {
+  background-color: #25A59E;
+  border: solid 4px #25A59E;
+
+  
+}
+.listtop {
+  width: 100%;
+  height:  4px;
+  top: 0;
+  left: 0;
+  background-color: #25A59E;
+}
+.title {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 62px;
+}
+.title-1 {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 62px;
+  color: #fff;
+  }
+  .description {
+    font-family: "urbanist";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #737373;
+    }
+    .description-1 {
+      font-family: "urbanist";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #fff;
+      }
+      .action {
+        display: flex;
+        gap: 7px;
+        justify-content: end;
+      }
+      .text {
+        font-family:"Gilda display";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.54px;
+      }
+      .action-1 {
+        display: flex;
+        margin-left:180px;
+        gap: 5px;
+      }
+      .text-1 {
+        font-family:"Gilda display";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.54px;
+        color: #fff;
+      }
+      .span-1 {
+        color:#25A59E;
+
+      }
+.journey {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #262626;  
+transform: translateY(50%);  }
+
+.thousands {
+  font-family: urbanist;
+  font-weight: 400;
+  font-size: 12px;
+  margin-right: 50px;
+  line-height: 20px;
+
+}
+.span-2 {
+  color:#25A59E;
+
+} 
+.couples {
+transform: translateY(-100%);
+margin-left: 100px;
+  
+  
+}
+.arrow {
+color: #25A59E;
+transform: translateX(35%)
+
+
+}
+.img-group {
+  margin-left: 400px;
+  margin-top: -250px
+
+}
+.trip  {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 3.5vw;
+  line-height: 64px;
+  height: 168px;
+  text-align: center;
+  color: #262626;
+  margin-left: 50px;
+}
+
+.video {
+  width: 90%;
+}
+
+
+.header-container {
+  font-family: "Gilda display";
+  font-weight: 400;
+  font-size: 30px;
+ display: flex;
+ gap: 500px;
+}
+
+.click {
+  transform: translateX(600%)
+  margin-left: 5px;
+
+}
+
+.move {
+font-family: "Gilda Display";
+font-size: 28px;
+font-weight: 400;
+line-height: 100px;
+letter-spacing: 0.1em;
+text-align: left;
+color: #25A59E;
+}
+
+.agent {
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+}
+.social-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.notification {
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
