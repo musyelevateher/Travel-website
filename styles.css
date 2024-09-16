@@ -251,7 +251,7 @@ transform: translateX(35%)
 }
 
 .click {
-  transform: translateX(600%)
+  transform: translateX(600%);
   margin-left: 5px;
 
 }
