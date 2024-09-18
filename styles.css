@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .travel  {
 display: flex;
 justify-content: space-between;
@@ -257,16 +256,16 @@ transform: translateX(35%)
 
 
 .header-container {
-  font-family: "Gilda display";
-  font-weight: 400;
-  font-size: 30px;
- display: flex;
- gap: 500px;
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 30px;
+display: flex;
+gap: 500px;
 }
 
 .click {
-  transform: translateX(600%);
-  margin-left: 5px;
+transform: translateX(600%);
+margin-left: 5px;
 
 }
 
@@ -290,7 +289,7 @@ text-align: left;
 .social-link {
   display: flex;
   transform: translateX(50%);
-  background-color: green;
+  
 }
 .cam {
   width: 20%;
