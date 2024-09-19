@@ -3,6 +3,9 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 .travel  {
 display: flex;
 justify-content: space-between;
@@ -89,6 +92,7 @@ padding:16px;
 }
 .location {
 display: flex;
+margin-top: 5px;
 }
 .rotate {
 transform: rotate(-180deg);
