@@ -1,0 +1,322 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.travel  {
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-left: 50px;
+padding-right: 50px;
+}
+.travel p {
+color: #25A59E;
+font-family: "Gilda display";
+font-size: 24px;
+font-weight: 400;
+}
+.frame {
+display: flex;
+margin-right: 15px;
+}
+.textarea1 {
+font-weight: 400;
+text-align: center;
+font-family: "Gilda display";
+font-size: 5vw;
+font-style: normal;
+line-height:150px;
+}
+.image-container {
+position: relative;
+width: 80%;
+max-width: 800px;
+margin: auto;
+}
+.blurry {
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+transform: translateY(-50%);
+}
+.ellipse {
+position: absolute;
+width: 85%;
+top: 0;
+left: 0;
+transform: translate(9%);
+}
+.image-A {
+position: absolute;
+width: 76%;
+top: 0;
+left: 0;
+transform: translate(18%);
+margin-top: -35px;
+}
+.span {
+  color: #25A59E;
+}
+.destination p {
+font-family: "Gilda display";
+font-weight:  400;
+font-size: 50px;
+line-height: 84px;
+text-align: center;
+margin-top: 400px;
+}
+.destination h4 {
+font-family: "urbanist";
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+color: #595959;
+text-align: center;
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+margin-top: 50px;
+}
+.lake {
+border: solid #f2f2f2;
+padding:16px;
+}
+.location {
+display: flex;
+margin-top: 5px;
+}
+.rotate {
+transform: rotate(-180deg);
+}
+.choose p {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 72px;
+line-height:  84px;
+color: #262626;
+text-align: center;
+}
+.choose h1 {
+font-family: "urbanist";
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color:#737373;
+}
+.listcard {
+display: flex;
+justify-content: center;
+gap: 40px;
+width:  100%;
+height: 400px;
+padding: 50px;
+} 
+.card {
+ border: solid #fdfafa;
+background-color: #fff;
+}
+.card-1 {
+background-color: #25A59E;
+border: solid #25A59E;
+}
+.listtop {
+width: 100%;
+height:  4px;
+top: 0;
+left: 0;
+background-color: #25A59E;
+}
+.title {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 30px;
+line-height: 62px;
+padding-left: 30px;
+}
+.title-1 {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 30px;
+line-height: 62px;
+color: #fff;
+padding-left: 30px;
+}
+.description {
+font-family: "urbanist";
+font-weight: 400;
+font-size: 12px;
+line-height: 32px;
+color: #737373;
+padding-left: 30px;
+}
+.description-1 {
+font-family: "urbanist";
+font-weight: 400;
+font-size: 12px;
+line-height: 32px;
+color: #fff;
+padding-left: 30px;
+}
+.action {
+display: flex;
+gap: 7px;
+margin-left: 230px;
+}
+.text {
+font-family:"Gilda display";
+font-weight: 400;
+font-size: 13px;
+line-height: 23.54px;
+}
+.action-1 {
+display: flex;
+gap: 5px;
+margin-left: 230px;
+}
+.text-1 {
+font-family:"Gilda display";
+font-weight: 400;
+font-size: 13px;
+line-height: 23.54px;
+color: #fff;
+}
+.span-1 {
+color:#25A59E;
+}
+.journey {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+color: #262626;  
+transform: translateY(50%);  }
+.thousands {
+font-family: urbanist;
+font-weight: 400;
+font-size: 12px;
+margin-right: 50px;
+line-height: 20px;
+margin-top: 30px;
+}
+.span-2 {
+color:#25A59E;
+} 
+.couples {
+transform: translateY(-100%);
+margin-left: 100px;
+}
+.arrow {
+color: #25A59E;
+transform: translateX(35%)
+}
+.img-group {
+margin-left: 400px;
+margin-top: -250px
+}
+.trip  {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 3.5vw;
+line-height: 64px;
+height: 168px;
+text-align: center;
+color: #262626;
+margin-left: 50px;
+}
+.video {
+width: 100%;
+}
+.header-container {
+font-family: "Gilda display";
+font-weight: 400;
+font-size: 30px;
+display: flex;
+gap: 500px;
+}
+.click {
+transform: translateX(60%);
+margin-left: 5px;
+}
+.move {
+font-family: "Gilda Display";
+font-size: 28px;
+font-weight: 400;
+line-height: 100px;
+letter-spacing: 0.1em;
+text-align: left;
+color: #25A59E;
+}
+.agent {
+font-family: "Urbanist";
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+margin-bottom: 50px;
+color: #595959;
+}
+.social-link {
+display: flex;
+gap: 10px;
+}
+.bird {
+margin-left: -150px;
+}
+.youtube {
+margin-left: -70px;
+}
+.notification {
+margin-top: 30px;
+}
+.header-links h3 {
+display: inline;
+margin: 0 10px;
+font-family: "Urbanist";
+font-size: 18px;
+font-weight: 600;
+color: #595959;
+}
+.header-links {
+margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
